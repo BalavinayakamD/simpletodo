@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.date{
+    display: flex;
+    position: fixed;
+    height: 15vh;
+    width: 20vw;
+    border-style: double;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: violet;
+    margin-left: 80%;
+    background-color: rgba(0, 0, 0, 0.343);
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
