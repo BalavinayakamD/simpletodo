@@ -3,6 +3,13 @@
     padding: 0%;
 }
 
+.container{
+    background-image: url(res/office.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: repeat;
+    display: flex;
+}
 .date{
     display: flex;
     position: fixed;
@@ -17,4 +24,42 @@
     justify-content: center;
     align-items: center;
     font-size: xx-large;
+}
+.todo{
+    margin-top:10%;
+    margin-left: 30vw;
+    display: inline;
+}
+#task{
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+}
+#btn{
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 50%;
+    border-color: transparent;
+    background: none;
+    color: rgba(93, 0, 255, 0.391);
+    outline: none;
+}
+#del{
+    padding: 0%;
+    margin: 0%;
+    border-radius: 50%;
+    border-color: transparent;
+    background: none;
+    color: red;
+    outline: none;
+}
+#event{
+    height: 40px;
+    border-radius: 10px;
+}
+.cl{
+    margin-left: 1.5%;
 }

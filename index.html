@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo list</title> 
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1c9719aaf4.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="fa-3x"></div>
     <div class="container">
-        <span class="date"></span>
+        <div class="date"></div>
         <div class="todo">
-          <input type="text" id="task"><input type="datetime-local">
-          <button onclick="taskadd()">ADD</button>
+          <input type="text" id="task">
+          <input id="event"type="datetime-local">
+          <button onclick="taskadd()" id="btn"><i class="fa-solid fa-circle-plus fa-beat"></i></button>
           <ol id="unol"></ol>
         </div>
     </div>
